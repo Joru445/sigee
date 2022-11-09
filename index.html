@@ -1,0 +1,50 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Sige</title>
+</head>
+<body>
+    <h1>HAHAHAHAHAHAHAHA</h1>
+    <button onclick="f1()">Yes</button>
+    <button id="Bn" onmouseover="f()">No</button>
+    <script>
+        flag=1
+        function f1()
+        {
+            var Name = prompt("K");
+            if(Name == "" || Name == null) { 
+            alert("WHAHAHAHAH");
+            } else {
+            alert("Hi " + Name + ", haha");
+            }
+        }
+        function f()
+        {
+            if(flag==1)
+                {
+                    Bn.style.top=50
+                    Bn.style.left=5
+                    flag=2
+                }
+            else if(flag==2)
+                {
+                    Bn.style.top=100
+                    Bn.style.left=5
+                    flag=3
+                }
+            else if(flag==3)
+                {
+                    Bn.style.top=150
+                    Bn.style.left=5
+                    flag=4
+                }
+            else if(flag==4)
+                {
+                    Bn.style.top=2
+                    Bn.style.left=5
+                    flag=1
+                }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body{
+    font-family: monospace;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    color: white;
+    background-color: rgb(0, 126, 230);
+    border-radius: 2px;
+    border-color: rgb(2, 112, 255);
+    position:relative;
+    left: 5px;
+    top: 2;
+    width: 50px;
+    height: 30px;
+}
+img{  
+    width:200px; 
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    position: relative;
+    left: 0;
+    top: 0;
+}
